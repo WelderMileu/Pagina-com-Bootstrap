@@ -3,20 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Bootstrap</title>
-		<!-- Estou utilizando sass -->
+		<!-- Usando link via npm -->
 		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 		<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 		<script type="text/javascript" src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<!-- Navbar -->
 		<nav class="navbar navbar-expand-sm bg-dark">
 			<div class="container">
-				<a href="#" class="brend-logo"> Logo </a>
+				<a href="#" class="brend-logo btn btn-primary disabled"><i class="fa fa-code"></i> Code</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#submenu">
-					Abrir
+					<i class="fa fa-bars text-light"></i>
 				</button>
-				<ul class="nav navbar-nav ml-auto collapse navbar-collapse" id="submenu"> 
+				<ul class="navbar-nav collapse navbar-collapse ml-5" id="submenu"> 
 					<li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
 					<li class="nav-item"><a href="#" class="nav-link text-light">Contato</a></li>
 					<li class="nav-item"><a href="#" class="nav-link text-light">Saiba</a></li>
